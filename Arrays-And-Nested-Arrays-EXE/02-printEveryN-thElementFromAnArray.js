@@ -5,9 +5,9 @@ function printElement(arr, step) {
         let currEl = arr[i];
 
         result.push(currEl);
-        
+
     }
-    console.log(result);
+    return result;
 }
 
 printElement(['5', '20', '31', '4', '20'], 2);
